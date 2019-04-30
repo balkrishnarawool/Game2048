@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/score_label"
+        android:textAppearance="@style/ScoreStyle"
+        android:text="@string/score_label"
+        android:gravity="right|center_vertical"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="60dp">
+    </TextView>    <TextView
+        android:id="@+id/score"
+        android:textAppearance="@style/ScoreStyle"
+        android:gravity="right|center_vertical"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp">
+    </TextView>
+    <TextView
+        android:id="@+id/high_score_label"
+        android:textAppearance="@style/ScoreStyle"
+        android:text="@string/high_score_label"
+        android:gravity="right|center_vertical"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="300dp">
+    </TextView>
+    <TextView
+        android:id="@+id/high_score"
+        android:textAppearance="@style/ScoreStyle"
+        android:gravity="right|center_vertical"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="300dp">
+    </TextView>
+
+    <GridLayout
+        android:id="@+id/board"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/grid"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="4">
+
+        <TextView
+            android:id="@+id/cell_0_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_0_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_0_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_0_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_1_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_1_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_1_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_1_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_2_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_2_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_2_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_3_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_3_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_3_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+        <TextView
+            android:id="@+id/cell_3_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textAppearance="@style/CellStyle"></TextView>
+
+
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScoreStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#484848</item><!-- #DDDDDD -->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CellStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">#484848</item><!-- #DDDDDD -->
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
